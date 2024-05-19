@@ -1,0 +1,240 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    perspective: 1000px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 60%;
+    margin: 20px auto;
+    transform-style: preserve-3d;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      transform: rotateX(-10deg) translateZ(-50px);
+      opacity: 0;
+    }
+    100% {
+      transform: rotateX(0) translateZ(0);
+      opacity: 1;
+    }
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffffff;
+  }
+  
+  .card {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #98eaff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transform-style: preserve-3d;
+    transform: translateZ(20px);
+  }
+  
+  h2, h3 {
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #252525;
+  }
+  
+  input,
+  select {
+    display: block;
+    width: 300px;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: #025f54;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    background-color: #004d40;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th,
+  td {
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  th {
+    background-color: #00796b;
+    color: #ffffff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  
+  .gantt-chart {
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  
+  .process {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #00796b;
+    text-align: center;
+    font-size: 1rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .process:hover {
+    transform: scale(1.05);
+    background-color: #004d40;
+  }
+  
+  canvas {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .results th,
+  .results td {
+    padding: 10px;
+  }
+  
+  .results th {
+    background-color: #00796b;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .results tr:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  .section-image {
+    float: right;
+    margin-top: -15px;
+    position: relative;
+    left: -40px;
+    width: 200px; /* Adjust width as needed */
+    height: 160px; /* Automatically adjust height based on width */
+    margin-right: 10px; /* Adjust margin between image and label */
+    vertical-align: middle; /* Align image vertically with text */
+}
+.section-image1 {
+    float: right;
+    margin-top: -15px;
+    position: relative;
+    left: -50px;
+    width: 400px; /* Adjust width as needed */
+    height: 300px; /* Automatically adjust height based on width */
+    margin-right: -30px; /* Adjust margin between image and label */
+    vertical-align: middle; /* Align image vertically with text */ 
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 0;
+  position: relative;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-about,
+.footer-links,
+.footer-contact {
+  width: 30%;
+}
+
+.footer h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #f5f5f5;
+}
+
+.footer p, .footer ul {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer ul li a:hover {
+  color: #ffa500;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #2d774c;
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
