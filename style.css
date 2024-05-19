@@ -58,7 +58,7 @@ body {
   input,
   select {
     display: block;
-    width: 300px;
+    width: 250px;
     align-items: center;
     padding: 10px;
     margin-bottom: 20px;
@@ -154,7 +154,7 @@ body {
     float: right;
     margin-top: -15px;
     position: relative;
-    left: -40px;
+    left: -20px;
     width: 200px; /* Adjust width as needed */
     height: 160px; /* Automatically adjust height based on width */
     margin-right: 10px; /* Adjust margin between image and label */
@@ -164,7 +164,7 @@ body {
     float: right;
     margin-top: -15px;
     position: relative;
-    left: -50px;
+    left: -10px;
     width: 400px; /* Adjust width as needed */
     height: 300px; /* Automatically adjust height based on width */
     margin-right: -30px; /* Adjust margin between image and label */
