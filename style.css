@@ -161,10 +161,10 @@ body {
     vertical-align: middle; /* Align image vertically with text */
 }
 .section-image1 {
-    float: center;
+    float: right;
     margin-top: -15px;
     position: relative;
-    left: -40px;
+    left: -10px;
     width: 360px; /* Adjust width as needed */
     height: 300px; /* Automatically adjust height based on width */
     margin-right: -30px; /* Adjust margin between image and label */
