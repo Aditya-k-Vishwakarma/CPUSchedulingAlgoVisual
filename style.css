@@ -164,8 +164,8 @@ body {
     float: right;
     margin-top: -15px;
     position: relative;
-    left: -10px;
-    width: 400px; /* Adjust width as needed */
+    left: -20px;
+    width: 360px; /* Adjust width as needed */
     height: 300px; /* Automatically adjust height based on width */
     margin-right: -30px; /* Adjust margin between image and label */
     vertical-align: middle; /* Align image vertically with text */ 
